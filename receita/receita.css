@@ -1,0 +1,49 @@
+body
+{
+    margin: 0;
+    background-color: darkslategray; 
+    background-image: url(pics/greentea.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.mainGreenText
+{
+    text-align: center; 
+    position: relative; 
+    color: rgb(161, 243, 161);
+    background-color: darkolivegreen;
+}
+
+.centerText
+{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.cornerText
+{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bottomText
+{
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
